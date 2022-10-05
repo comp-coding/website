@@ -48,7 +48,6 @@
         </div>
       </div>
     </div>    
-
   </div> 
   <div class="drawer-side">
     <label for="my-drawer" class="drawer-overlay"></label>
