@@ -54,8 +54,12 @@
     <label for="my-drawer" class="drawer-overlay"></label>
     <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
       <!-- Sidebar content here -->
-      <li><a>Sidebar Item 1</a></li>
-      <li><a>Sidebar Item 2</a></li>
+      <li><a>Introduction</a></li>
+      <li><a>Current Projects</a></li>
+      <li><a>Rules</a></li>
+      <li><a>Frequently Asked Questions</a></li>
+      <li><a>Team</a></li>
+      <li><a>Contact Us</a></li>
       
     </ul>
   </div>
