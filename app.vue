@@ -43,7 +43,7 @@
         </div>
         <div>
           <h1 class="text-5xl font-bold">Welcome to club.dev!</h1>
-          <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+          <p class="py-6">This club is supported by KGV CAS and Hack Club, a nonprofit organisation that provides us with many teaching resources. This club is expected to start shortly after Challenge Week 2022, and signups will be available on Lionel soon. The website is still under development.</p>
           <button class="btn btn-primary">Get Started</button>
         </div>
       </div>
