@@ -8,7 +8,7 @@
       <!-- Page content here -->
       <div class="drawer-content">
         <Navbar />
-        <Hero />
+        
       </div>
 
       <Menu />
