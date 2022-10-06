@@ -27,7 +27,7 @@
     </div>
     <div class="card w-96 bg-base-100 shadow-xl">
       <figure>
-        <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+        <img src="/Erik.png" alt="Shoes" />
       </figure>
       <div class="card-body">
         <h2 class="card-title">Erik Xu</h2>
@@ -53,3 +53,11 @@
   </section>
   
 </template>
+<style>
+  .card{
+    transition: ease-in 0.3s;
+  }
+  .card:hover{
+    transform: scale(1.05);
+  }
+</style>
