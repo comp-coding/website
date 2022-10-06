@@ -1,20 +1,25 @@
 <template>
-    <div class="hero min-h-screen bg-base-200">
-        <div class="hero-content flex-col lg:flex-row">
-            <div class="mockup-code">
-                <pre data-prefix="$"><code>curl clubdev.vercel.app</code></pre> 
-                <pre data-prefix=">" class="text-warning"><code>Resolving hostname</code></pre>
-                <pre data-prefix=">" class="text-warning"><code>Connecting to hostname</code></pre>
-                <pre data-prefix=">" class="text-success"><code>Connected!</code></pre>
-                <pre data-prefix=">"><code>Rendering webpage...</code></pre>
+    <div class="mockup-window border-2 border-base-300 bg-base-100 flex-col">
+        <div class="flex justify-center py-10 border-2 border-base-300 bg-base-100">
+            <div class="text-left mt-7">
+                <div class="mockup-code">
+                    <pre data-prefix="$"><code>curl clubdev.vercel.app</code></pre> 
+                    <pre data-prefix=">" class="text-warning"><code>Resolving hostname</code></pre>
+                    <pre data-prefix=">" class="text-warning"><code>Connecting to hostname</code></pre>
+                    <pre data-prefix=">" class="text-success"><code>Connected!</code></pre>
+                    <pre data-prefix=">"><code>Rendering webpage...</code></pre>
+                </div>
             </div>
-            <div>
-                <h1 class="text-5xl font-bold">Welcome to club.dev!</h1>
-                
-                <p class="py-6">
-                    club.dev is founded by a group of y11 computer science students aiming to foster and create a society that focuses on development of real world skills that can be marketed. This club is supported by KGV CAS and Hack Club, a nonprofit organisation that provides us with many resources. This club is also expected to start shortly after Challenge Week 2022, and signups will be available on Lionel soon. The website is still under development.
-                </p>
-                <button class="btn btn-primary">Get Started</button>
+
+            <div class="text-center lg:text-left m-10">
+                <h1 class="mb-3 text-5xl font-bold">
+                    Club.dev </h1>
+                <p class="mb-3 text-3xl">
+                    A place for developers to learn, share, and grow. </p>
+                <p class="mb-3">
+                    This society focuses on development of projects as well as real world skills required that can be marketed easily to help prepare for the future. </p>
+                <p class="mb-6">
+                    Club.dev is a society founded by a group of students with a strong passion for Computer science. </p>
             </div>
         </div>
     </div>
