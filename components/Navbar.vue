@@ -8,7 +8,7 @@
 
     <!-- Center - ish -->
     <div class="flex-1"> 
-        <a class="btn btn-ghost normal-case text-2xl">club.dev</a>
+        <NuxtLink to="/" class="btn btn-ghost normal-case text-2xl">club.dev</NuxtLink>
     </div>
 
     <!-- right  -->

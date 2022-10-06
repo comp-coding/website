@@ -5,11 +5,11 @@
 
           <!-- Sidebar content here -->
           <li><NuxtLink to="/">Introduction</NuxtLink></li>
-          <li><NuxtLink to="/curProj">Current Projects</NuxtLink></li>
-          <li><NuxtLink>Rules</NuxtLink></li>
-          <li><NuxtLink>Frequently Asked Questions</NuxtLink></li>
-          <li><NuxtLink>Team</NuxtLink></li>
-          <li><NuxtLink>Contact Us</NuxtLink></li>
+          <li><NuxtLink to="/CurProj">Current Projects</NuxtLink></li>
+          <li><NuxtLink to="/Rules">Rules</NuxtLink></li>
+          <li><NuxtLink to="/FAQ">Frequently Asked Questions</NuxtLink></li>
+          <li><NuxtLink to="/Team">Team</NuxtLink></li>
+          <li><NuxtLink to="/ContactUs">Contact Us</NuxtLink></li>
         </ul>
       </div>
 </template>
