@@ -12,7 +12,8 @@
     </div>
 
     <!-- right  -->
-    <div class="flex-none">
+    <div class="flex-none space-x-3">
+      <NuxtLink to="https://hackclub.com/" target="_blank" ><img src="hackclub.png" class="w-10 h-10"></NuxtLink>
       <!-- light and dark mode swapping. Not implemented yet TODO! --> 
       <label class="swap swap-rotate">
         <input type="checkbox" /> <!-- this hidden checkbox controls the state -->
