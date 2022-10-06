@@ -4,7 +4,7 @@
         <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
 
           <!-- Sidebar content here -->
-          <li><NuxtLink to="/app">Introduction</NuxtLink></li>
+          <li><NuxtLink to="/">Introduction</NuxtLink></li>
           <li><NuxtLink to="/curProj">Current Projects</NuxtLink></li>
           <li><NuxtLink>Rules</NuxtLink></li>
           <li><NuxtLink>Frequently Asked Questions</NuxtLink></li>
