@@ -15,7 +15,7 @@
     </div>
     <div class="card w-96 bg-base-100 shadow-xl">
       <figure>
-        <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+        <img src="/Dhairya.png" alt="Shoes" />
       </figure>
       <div class="card-body">
         <h2 class="card-title">Dhairya Shah</h2>
@@ -56,8 +56,10 @@
 <style>
   .card{
     transition: ease-in 0.3s;
+    opacity: 0.7;
   }
   .card:hover{
     transform: scale(1.05);
+    opacity: 1;
   }
 </style>
