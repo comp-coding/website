@@ -7,9 +7,8 @@
       </figure>
       <div class="card-body">
         <h2 class="card-title">Alex Climie</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
         <div class="card-actions justify-end">
-          <button class="btn btn-primary">Contact</button>
+          <a href="mailto:climia1@kgv.hk" class="btn btn-primary">Contact</a>
         </div>
       </div>
     </div>
@@ -19,9 +18,8 @@
       </figure>
       <div class="card-body">
         <h2 class="card-title">Dhairya Shah</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
         <div class="card-actions justify-end">
-          <button class="btn btn-primary">Contact</button>
+          <a href="mailto:shahd1@kgv.hk" class="btn btn-primary">Contact</a>
         </div>
       </div>
     </div>
@@ -31,7 +29,6 @@
       </figure>
       <div class="card-body">
         <h2 class="card-title">Erik Xu</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
         <div class="card-actions justify-end">
           <a href="mailto:xuj1@kgv.hk" class="btn btn-primary">Contact</a>
         </div>
@@ -43,9 +40,8 @@
       </figure>
       <div class="card-body">
         <h2 class="card-title">Ethan Cheung</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
         <div class="card-actions justify-end">
-          <button class="btn btn-primary">Contact</button>
+          <a href="mailto:cheunt3@kgv.hk" class="btn btn-primary">Contact</a>
         </div>
       </div>
     </div>
