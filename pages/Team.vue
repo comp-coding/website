@@ -3,7 +3,7 @@
   <div class="flex justify items-center gap-10 flex-col md:flex-row">
     <div class="card w-96 bg-base-100 shadow-xl">
       <figure>
-        <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+        <img src="/Alex.png"/>
       </figure>
       <div class="card-body">
         <h2 class="card-title">Alex Climie</h2>
@@ -15,7 +15,7 @@
     </div>
     <div class="card w-96 bg-base-100 shadow-xl">
       <figure>
-        <img src="/Dhairya.png" alt="Shoes" />
+        <img src="/Dhairya.png"/>
       </figure>
       <div class="card-body">
         <h2 class="card-title">Dhairya Shah</h2>
@@ -27,7 +27,7 @@
     </div>
     <div class="card w-96 bg-base-100 shadow-xl">
       <figure>
-        <img src="/Erik.png" alt="Shoes" />
+        <img src="/Erik.png"/>
       </figure>
       <div class="card-body">
         <h2 class="card-title">Erik Xu</h2>
@@ -39,7 +39,7 @@
     </div>
     <div class="card w-96 bg-base-100 shadow-xl">
       <figure>
-        <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+        <img src="/Ethan.png"/>
       </figure>
       <div class="card-body">
         <h2 class="card-title">Ethan Cheung</h2>
