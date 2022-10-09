@@ -9,6 +9,6 @@ export default defineNuxtConfig({
         global: true,
         dirs: ['~/components']
     },
-    title: 'club.dev',
+    title: 'ROAST',
 })
 
