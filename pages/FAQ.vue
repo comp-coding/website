@@ -4,12 +4,14 @@
       <div class="text-center lg:text-left m-10">
         <h1 class="mb-3 text-5xl font-bold">
           Frequently Asked Questions </h1>
+          <br>
         <div v-for="item in items" v-bind:key="item.id">
-          <p class="mb-3 text-2xl">{{item.question}}</p>
-          <p class="mb-3">
+          <p class="mb-3 text-2xl font-semibold">{{item.question}}</p>
+          <p class="mb-3 font-thin pb-6">
             {{item.answer}}
           </p>
         </div>
+        <h1 class='text-2xl'>Have any more questions? <a href='/Contact' class='text-sky-600'>Contact us.</a></h1>
 
       </div>
     </div>
@@ -23,7 +25,7 @@ export default {
         {
           id: 1,
           question: "What is Club.dev?",
-          answer: "Club.dev is a society founded by a group of students with a strong passion for Computer science."
+          answer: "Club.dev is a society founded by a group of students with a strong passion for computer science."
         },
         {
           id: 2,
