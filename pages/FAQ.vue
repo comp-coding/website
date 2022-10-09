@@ -11,7 +11,7 @@
             {{item.answer}}
           </p>
         </div>
-        <h1 class='text-2xl'>Have any more questions? <a href='/Contact' class='text-sky-600'>Contact us.</a></h1>
+        <h1 class='text-2xl'>Have any more questions? <NuxtLink to='/Contact' class='text-sky-600'>Contact us.</NuxtLink></h1>
 
       </div>
     </div>
