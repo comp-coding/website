@@ -3,7 +3,7 @@
     <div class="m-10">
       <div class="text-center lg:text-left m-10">
         <h1 class="mb-3 text-5xl font-bold">
-          Frequently Asked Questions </h1>
+          Rules </h1>
           <br>
         <div v-for="item in items" v-bind:key="item.id">
           <p class="mb-3 text-2xl font-semibold">{{item.rule}}</p>
