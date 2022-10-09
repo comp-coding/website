@@ -1,13 +1,13 @@
 <template>
   <div class="mockup-window border-2 border-base-300 bg-base-100 flex-col">
-    <div class="m-10">
-      <h1 class="mb-3 text-5xl font-bold">Rules</h1>
-      <br>
-      <p class="mb-3 text-3xl">Our expectations from you:</p>
-      <br>
+    <div>
+      <h1 class="mb-5 text-5xl font-bold ">Rules</h1>
+
+      <p class="mb-3 text-3xl pb-5">Our expectations from you:</p>
+
       <div v-for="item in items" v-bind:key="item.id">
-      <p class="mb-3 text-2xl font-semibold">{{item.rule}}</p>
-      <p class="mb-3 font-thin pb-6">{{item.expl}}</p>
+        <p class="mb-3 text-2xl font-semibold">{{item.rule}}</p>
+        <p class="mb-3 font-thin pb-6">{{item.expl}}</p>
       </div>
     </div>
   </div>
@@ -44,6 +44,11 @@ export default {
           expl: "We expect you to respect the privacy of others. This includes respecting the privacy of others in society events, respecting the privacy of others in society projects, and respecting the privacy of others in society discussions.",
         },
       ]
+    }
+  },
+  head() {
+    return {
+      title: 'club.dev | Rules'
     }
   }
 }

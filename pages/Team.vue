@@ -49,6 +49,7 @@
   </section>
   
 </template>
+
 <style>
   .card{
     transition: ease-in 0.3s;
@@ -59,3 +60,13 @@
     opacity: 1;
   }
 </style>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'club.dev | Team'
+    }
+  }
+}
+</script>

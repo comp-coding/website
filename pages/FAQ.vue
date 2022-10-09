@@ -48,7 +48,11 @@ export default {
           answer: "Although it is not neccessary to participate in the sessions, we will cover usage of tools and skills used in real world development like version control with git. ",
         },
       ]
-
+    }
+  },
+  head() {
+    return {
+      title: 'club.dev | FAQ'
     }
   }
 }
