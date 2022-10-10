@@ -1,5 +1,5 @@
 <template>
-  <div class="mockup-window border-2 border-base-300 bg-base-100 flex-col">
+  <div class="mockup-window border-2 mx-8 border-base-300 bg-base-100 flex-col">
     <div class="m-10">
       <div class="text-center lg:text-left m-10">
         <h1 class="mb-3 text-5xl font-bold">
