@@ -1,21 +1,16 @@
 <template>
-  <div class="mockup-window border-2 mx-8 border-base-300 bg-base-100 flex-col">
-    <div class="m-10">
+  <div class="text-center lg:text-left m-10 justify-center">
+    <h1 class="mb-3 text-5xl font-bold">Rules</h1>
       <div class="text-center lg:text-left m-10">
-        <h1 class="mb-3 text-5xl font-bold">
-          Rules </h1>
-          <br>
-        <div v-for="item in items" v-bind:key="item.id">
-          <p class="mb-3 text-2xl font-semibold">{{item.rule}}</p>
-          <p class="mb-3 font-thin pb-6">
-            {{item.expl}}
-          </p>
-        </div>
-        <h1 class='text-2xl'>Have any more questions? <NuxtLink to='/Contact' class='text-sky-600'>Contact us.</NuxtLink></h1>
-
+      <div v-for="item in items" v-bind:key="item.id">
+        <p class="mb-3 text-2xl font-semibold">{{item.rule}}</p>
+        <p class="mb-3 font-thin pb-6">
+          {{item.expl}}
+        </p>
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
