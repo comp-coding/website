@@ -1,5 +1,5 @@
 <template>
-    <div class="flex bg-gray-100 dark:bg-gray-700 border-t-0 w-full h-96 rounded-b-lg h-3/6">
+    <div class="flex bg-gray-100 dark:bg-gray-700 w-full rounded-b-lg h-3/6 flex-col md:flex-row">
         <div class="text-left mt-7">
             <div class="mockup-code mx-8">
                 <pre data-prefix="$"><code>curl clubdev.vercel.app</code></pre>
