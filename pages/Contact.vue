@@ -7,7 +7,7 @@
             Have any questions? Feel free to reach us!
             </p>
             <br/>
-        <div class="flex flex-row gap-10 justify-center md:flex-column">
+        <div class="grid grid-flow-row items-center justify-center gap-10 md:grid-flow-col">
           <NuxtLink to="mailto:shad1@kgv.hk" target="_blank"><img src="/Gmail.webp" class="h-20"/></NuxtLink>
           <NuxtLink to="https://github.com/kgv-club-dev" target="_blank"><img src="/Github.png" class="h-20"/></NuxtLink>
           <NuxtLink to="https://discord.gg/BhgT6keGrD" target="_blank"><img src="/Discord.png" class="h-20"/></NuxtLink>

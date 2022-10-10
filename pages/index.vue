@@ -1,6 +1,6 @@
 <template>
     <div class="mockup-window border-2 mx-8 border-base-300 bg-base-100 flex-col">
-        <div class="flex justify-center py-10 border-2 border-base-300 bg-base-100">
+        <div class="flex justify-center items-center py-10 border-2 border-base-300 bg-base-100 flex-col md:flex-row">
             <div class="text-left mt-7 justify-center">
                 <div class="mockup-code mx-8">
                     <pre data-prefix="$"><code>curl clubdev.vercel.app</code></pre>
