@@ -1,6 +1,6 @@
 <template>
     <div class="flex bg-gray-100 dark:bg-gray-700 w-full rounded-b-lg h-3/6 flex-col md:flex-row">
-        <div class="text-left mt-7">
+        <div class="text-left mt-14">
             <div class="mockup-code mx-8">
                 <pre data-prefix="$"><code>curl clubdev.vercel.app</code></pre>
                 <pre data-prefix=">" class="text-warning"><code>Resolving hostname</code></pre>
@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="text-center lg:text-left m-10 justify-center">
-            <h1 class="font-extrabold title text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+            <h1 class="font-extrabold title text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mb-3">
                 Club.dev 
             </h1>
             <p class="mb-3 text-3xl">
