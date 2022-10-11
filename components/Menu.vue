@@ -7,9 +7,9 @@
       <li>
         <NuxtLink to="/">Introduction</NuxtLink>
       </li>
-      <li>
+      <!-- <li>
         <NuxtLink to="/Projects">Projects</NuxtLink>
-      </li>
+      </li> -->
       <li>
         <NuxtLink to="/Rules">Rules</NuxtLink>
       </li>
