@@ -1,6 +1,6 @@
 <template>
   <div class="m-10">
-    <h1 class="mb-3 text-5xl font-bold">
+    <h1 class="font-extrabold text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
           Contact Us
      </h1>
       <p class="mb-3 text-3xl">

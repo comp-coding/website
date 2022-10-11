@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="text-center lg:text-left m-10 justify-center">
-            <h1 class="mb-3 text-5xl font-bold">
+            <h1 class="font-extrabold text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
                 Club.dev 
             </h1>
             <p class="mb-3 text-3xl">
