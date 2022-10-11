@@ -1,5 +1,6 @@
 <template>
-  <section class="container mx-auto py-36 px-8">
+  <section class="container mx-auto px-8 h-auto pb-20">
+  <h1 class="text-center font-extrabold title text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mb-10 mt-10">The Team</h1>
   <div class="flex justify items-center gap-10 flex-col md:flex-row">
     <div class="card w-96 bg-base-100 shadow-xl">
       <figure>

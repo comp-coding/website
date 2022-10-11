@@ -1,6 +1,7 @@
 <template>
   <div class="text-center lg:text-left m-10 justify-center">
-    <h1 class="font-extrabold text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">Rules</h1>
+    <!-- normal non changing text: font-extrabold text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500-->
+    <h1 class="font-extrabold title text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">Rules</h1>
       <div class="text-center lg:text-left m-10">
       <div v-for="item in items" v-bind:key="item.id">
         <p class="mb-3 text-2xl font-semibold">{{item.rule}}</p>
