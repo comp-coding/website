@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="text-center lg:text-left m-10 justify-center">
-            <h1 class="font-extrabold text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+            <h1 class="font-extrabold title text-transparent text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
                 Club.dev 
             </h1>
             <p class="mb-3 text-3xl">
@@ -25,6 +25,29 @@
 
 
 </template>
+<style>
+    @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+    .title {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #ffff00, #d61010);
+	    background-size: 400% 400%;
+	    animation: gradient 15s ease infinite;
+	    height: 6rem;
+        background-clip: text;
+        overflow: hidden;
+    }
+    
+</style>
+
 <script>
 export default {
     head() {
