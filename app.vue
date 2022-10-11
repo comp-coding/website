@@ -14,7 +14,7 @@
               <span class="w-3 h-3 border-2 border-transparent dark:border-yellow-400 rounded-full bg-yellow-400 dark:bg-transparent"></span>
               <span class="w-3 h-3 border-2 border-transparent dark:border-green-400 rounded-full bg-green-400 dark:bg-transparent"></span>
             </div>
-            <div class="flex bg-gray-100 dark:bg-gray-700 border-t-0 w-full h-96 rounded-b-lg h-auto">
+            <div class="flex bg-gray-100 dark:bg-gray-700 border-t-0 w-full rounded-b-lg h-auto">
               <NuxtPage />
             </div>
           </div>
