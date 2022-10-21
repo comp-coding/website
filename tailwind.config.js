@@ -5,9 +5,11 @@ module.exports = {
     "./*.{js,vue,ts}",
     "./components/*.{js,vue,ts}",
     "./pages/*.{js,vue,ts}",
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
+  darkMode: 'class',
+  plugins: [require("daisyui", "flowbite/plugin")],
 }

@@ -26,3 +26,6 @@
     </div>
   </div>
 </template>
+
+<script src="../path/to/flowbite/dist/flowbite.js"></script> 
+<!-- Ensures flowbite intereactive elements -->
